@@ -1,0 +1,12 @@
+#conteudos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  #conteudos> :nth-child(n) {
+      margin: 10px;
+  }
